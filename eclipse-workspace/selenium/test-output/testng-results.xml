@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression" duration-ms="16152" started-at="2019-01-10T07:16:21Z" finished-at="2019-01-10T07:16:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16152" started-at="2019-01-10T07:16:21Z" finished-at="2019-01-10T07:16:37Z">
+      <class name="Jenkinsdemo.Jenkins">
+        <test-method status="PASS" signature="Testfb()[pri:0, instance:Jenkinsdemo.Jenkins@553f17c]" name="Testfb" duration-ms="16116" started-at="2019-01-10T12:46:21Z" finished-at="2019-01-10T12:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testfb -->
+      </class> <!-- Jenkinsdemo.Jenkins -->
+    </test> <!-- Test -->
+  </suite> <!-- regression -->
+</testng-results>

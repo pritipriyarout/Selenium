@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 18 10:54:09 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21664 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNG.BeforeclassAndAfterclass.createCustomerTest()'><b>createCustomerTest</b><br>Test class: testNG.BeforeclassAndAfterclass</td>
+<td></td>
+<td>0</td>
+<td>testNG.BeforeclassAndAfterclass@4501b7af</td></tr>
+<tr>
+<td title='testNG.CustomerTest1.createCustomerTest()'><b>createCustomerTest</b><br>Test class: testNG.CustomerTest1</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTest1@523884b2</td></tr>
+<tr>
+<td title='com.actitime.customerTestt.customerTest.CustomerTest.createCustomerTest()'><b>createCustomerTest</b><br>Test class: com.actitime.customerTestt.customerTest.CustomerTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.customerTestt.customerTest.CustomerTest@29774679</td></tr>
+<tr>
+<td title='testNG.CustomerTestSubClass.createCustomerTest()'><b>createCustomerTest</b><br>Test class: testNG.CustomerTestSubClass</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTestSubClass@5e5792a0</td></tr>
+<tr>
+<td title='testNG.CustomerTest.createcustomerTest()'><b>createcustomerTest</b><br>Test class: testNG.CustomerTest</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTest@61832929</td></tr>
+<tr>
+<td title='com.actitime.projectTest.projectTest.ProjectTest.createprojectTest()'><b>createprojectTest</b><br>Test class: com.actitime.projectTest.projectTest.ProjectTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.projectTest.projectTest.ProjectTest@5b275dab</td></tr>
+<tr>
+<td title='com.actitime.userTest.userTest.UserTest.createuserTest()'><b>createuserTest</b><br>Test class: com.actitime.userTest.userTest.UserTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.userTest.userTest.UserTest@3ffc5af1</td></tr>
+<tr>
+<td title='testNG.BeforeclassAndAfterclass.deleteCusomerTest()'><b>deleteCusomerTest</b><br>Test class: testNG.BeforeclassAndAfterclass</td>
+<td></td>
+<td>0</td>
+<td>testNG.BeforeclassAndAfterclass@4501b7af</td></tr>
+<tr>
+<td title='testNG.CustomerTest1.deleteCusomerTest()'><b>deleteCusomerTest</b><br>Test class: testNG.CustomerTest1</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTest1@523884b2</td></tr>
+<tr>
+<td title='com.actitime.customerTestt.customerTest.CustomerTest.deleteCusomerTest()'><b>deleteCusomerTest</b><br>Test class: com.actitime.customerTestt.customerTest.CustomerTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.customerTestt.customerTest.CustomerTest@29774679</td></tr>
+<tr>
+<td title='testNG.CustomerTestSubClass.deleteCusomerTest()'><b>deleteCusomerTest</b><br>Test class: testNG.CustomerTestSubClass</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTestSubClass@5e5792a0</td></tr>
+<tr>
+<td title='com.actitime.projectTest.projectTest.ProjectTest.deleteprojectTest()'><b>deleteprojectTest</b><br>Test class: com.actitime.projectTest.projectTest.ProjectTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.projectTest.projectTest.ProjectTest@5b275dab</td></tr>
+<tr>
+<td title='com.actitime.userTest.userTest.UserTest.deleteuserTest()'><b>deleteuserTest</b><br>Test class: com.actitime.userTest.userTest.UserTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.userTest.userTest.UserTest@3ffc5af1</td></tr>
+<tr>
+<td title='testNG.BeforeclassAndAfterclass.modifyingCustomerTest()'><b>modifyingCustomerTest</b><br>Test class: testNG.BeforeclassAndAfterclass</td>
+<td></td>
+<td>0</td>
+<td>testNG.BeforeclassAndAfterclass@4501b7af</td></tr>
+<tr>
+<td title='testNG.CustomerTest1.modifyingCustomerTest()'><b>modifyingCustomerTest</b><br>Test class: testNG.CustomerTest1</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTest1@523884b2</td></tr>
+<tr>
+<td title='com.actitime.customerTestt.customerTest.CustomerTest.modifyingCustomerTest()'><b>modifyingCustomerTest</b><br>Test class: com.actitime.customerTestt.customerTest.CustomerTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.customerTestt.customerTest.CustomerTest@29774679</td></tr>
+<tr>
+<td title='testNG.CustomerTestSubClass.modifyingCustomerTest()'><b>modifyingCustomerTest</b><br>Test class: testNG.CustomerTestSubClass</td>
+<td></td>
+<td>0</td>
+<td>testNG.CustomerTestSubClass@5e5792a0</td></tr>
+<tr>
+<td title='com.actitime.projectTest.projectTest.ProjectTest.modifyingprojectTest()'><b>modifyingprojectTest</b><br>Test class: com.actitime.projectTest.projectTest.ProjectTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.projectTest.projectTest.ProjectTest@5b275dab</td></tr>
+<tr>
+<td title='com.actitime.userTest.userTest.UserTest.modifyinguserTest()'><b>modifyinguserTest</b><br>Test class: com.actitime.userTest.userTest.UserTest</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.userTest.userTest.UserTest@3ffc5af1</td></tr>
+</table><p>
+</body>
+</html>
